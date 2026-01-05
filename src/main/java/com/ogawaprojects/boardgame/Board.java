@@ -28,7 +28,8 @@ public class Board {
     }
 
     public Piece piece(int row, int column) {
-        return pieces[row][column];
+        this.pieces = new Piece[row][column];
+        return null;
     }
 
     public Piece piece(Position position) {
