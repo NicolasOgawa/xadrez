@@ -8,6 +8,6 @@ public class Main {
     public static void main(String[] args) {
 
         ChessMatch chessMatch = new ChessMatch();
-        UI.printBoar(chessMatch.getPieces()); // UI: User Interface
+        UI.printBoard(chessMatch.getPieces()); // UI: User Interface
     }
 }
