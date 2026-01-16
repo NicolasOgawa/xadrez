@@ -1,7 +1,5 @@
 package com.ogawaprojects.application;
-
-import com.ogawaprojects.boardgame.Board;
-import com.ogawaprojects.boardgame.Position;
+.
 import com.ogawaprojects.chess.ChessMatch;
 
 public class Main {
