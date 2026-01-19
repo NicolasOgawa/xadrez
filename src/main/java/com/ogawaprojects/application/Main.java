@@ -1,5 +1,5 @@
 package com.ogawaprojects.application;
-.
+
 import com.ogawaprojects.chess.ChessMatch;
 
 public class Main {
