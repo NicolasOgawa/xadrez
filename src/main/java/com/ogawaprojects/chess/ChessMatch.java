@@ -3,8 +3,8 @@ package com.ogawaprojects.chess;
 import com.ogawaprojects.boardgame.Board;
 import com.ogawaprojects.boardgame.Piece;
 import com.ogawaprojects.boardgame.Position;
-import com.ogawaprojects.pieces.King;
-import com.ogawaprojects.pieces.Rook;
+import com.ogawaprojects.chess.pieces.King;
+import com.ogawaprojects.chess.pieces.Rook;
 
 public class ChessMatch {
 

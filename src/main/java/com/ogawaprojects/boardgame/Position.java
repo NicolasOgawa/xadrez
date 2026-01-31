@@ -2,20 +2,20 @@ package com.ogawaprojects.boardgame;
 
 public class Position {
 
-    private int rown;
+    private int row;
     private int column;
 
-    public Position(int rown, int column) {
-        this.rown = rown;
+    public Position(int row, int column) {
+        this.row = row;
         this.column = column;
     }
 
-    public int getRown() {
-        return rown;
+    public int getRow() {
+        return row;
     }
 
-    public void setRown(int rown) {
-        this.rown = rown;
+    public void setRow(int rown) {
+        this.row = rown;
     }
 
     public int getColumn() {
@@ -26,8 +26,13 @@ public class Position {
         this.column = column;
     }
 
+    public void setValues(int row, int column) {
+        this.row = row;
+        this.column = column;
+    }
+
     @Override
     public String toString() {
-        return rown + ", " + column;
+        return row + ", " + column;
     }
 }

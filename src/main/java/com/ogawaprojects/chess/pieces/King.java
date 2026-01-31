@@ -1,17 +1,17 @@
-package com.ogawaprojects.pieces;
+package com.ogawaprojects.chess.pieces;
 
 import com.ogawaprojects.boardgame.Board;
 import com.ogawaprojects.chess.ChessPiece;
 import com.ogawaprojects.chess.Color;
 
-public class Rook extends ChessPiece {
-    public Rook(Board board, Color color) {
+public class King extends ChessPiece {
+    public King(Board board, Color color) {
         super(board, color);
     }
 
     @Override
     public String toString() {
-        return "R";
+        return "K";
     }
 
     @Override
